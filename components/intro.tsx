@@ -75,6 +75,7 @@ export default function Intro() {
                 <BsLinkedin />
             </a>
             <a className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105" 
+            href="https://github.com/souravwalke"
             target="_blank">
                 <FaGithubSquare />
             </a>
