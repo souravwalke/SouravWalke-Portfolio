@@ -28,29 +28,37 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Instructional Student Assistant",
+    location: "California State University, East Bay",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Lead tutoring sessions for students in key computer science courses, fostering a deeper understanding and practical application of programming principles.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023-2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Masters In Computer Science",
+    location: "California State University, East Bay",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Graduated with a Master's in Computer Science, with a specialization in software engineering and advanced data structures, gaining expertise in algorithm design, system architecture, and programming methodologies.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2024",
+  },
+  {
+    title: "Software Engineer - II",
+    location: "CrimsonLogic",
+    description:
+      "Collaborated on Agile feature design, led batch data migration to the cloud with Spring Batch, implemented Azure DevOps pipelines, and integrated testing frameworks for better code coverage.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Software Engineer - I",
+    location: "CrimsonLogic India",
+    description: 
+      "Orchestrated application workflows for multiple government departments within St. Lucia DigiGov, enhancing user experience and increasing citizen engagement by streamlining services and integrating secure payment systems.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+  }
 ] as const;
 
 export const skillsData = [
