@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
@@ -31,7 +30,7 @@ export const experiencesData = [
     title: "Instructional Student Assistant",
     location: "California State University, East Bay",
     description:
-      "Lead tutoring sessions for students in key computer science courses, fostering a deeper understanding and practical application of programming principles.",
+      "Led tutoring sessions for students in key computer science courses, fostering a deeper understanding and practical application of programming principles.",
     icon: React.createElement(CgWorkAlt),
     date: "2023-2024",
   },
